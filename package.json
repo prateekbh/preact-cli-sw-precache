@@ -1,0 +1,25 @@
+{
+  "name": "preact-cli-sw-precache",
+  "version": "1.0.0",
+  "description": "Preact cli plugin for configuring sw-precache",
+  "main": "index.js",
+  "scripts": {
+    "prepublish": "npm run lint",
+    "lint": "eslint src/",
+    "test": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prateekbh/preact-cli-sw-precache.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prateekbh/preact-cli-sw-precache/issues"
+  },
+  "homepage": "https://github.com/prateekbh/preact-cli-sw-precache#readme",
+  "devDependencies": {
+    "sw-precache-webpack-plugin": "^0.11.4"
+  }
+}
