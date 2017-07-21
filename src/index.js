@@ -13,7 +13,6 @@ const preactCliPrecachePlugin = (config, swPrecacheOptions) => {
     if (plugin instanceof SwPrecacheWebpackPlugin){
       plugin.options = swPrecacheOptions;
     }
-
   }
   return config;
 };
