@@ -1,5 +1,5 @@
 # preact-cli-sw-precache
-Preact cli plugin for configuring sw-precache.
+Preact cli plugin for configuring [sw-precache](https://github.com/GoogleChrome/sw-precache).
 
 This plugin allows you to customize the behaviour of auto bundled `sw-precache` module.
 You can specify all the custom config that `sw-precache` accepts and hence make your service worker more powerful.
